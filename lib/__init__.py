@@ -1,3 +1,3 @@
-__all__ = ['prepay', 'credit', 'util', 'rates', 'pricer']
+__all__ = ['prepay', 'credit', 'util', 'rates', 'pricer', 'cashflow']
 
 #from .prepay import *
