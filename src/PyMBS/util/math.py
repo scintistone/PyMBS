@@ -1,10 +1,12 @@
 import numpy as np
 
 def smm2cpr(smm):
+    '''Convert monthly survival rate to annual CPR'''
     return 1 - np.power(1 - smm, 12)
 
 
 def cpr2smm(cpr):
+    '''Convert annual CPR to monthly survival rate'''
     return 1 - np.power(1 - cpr, 1/12)
 
 def BAL(coupon, orig_term, rem_term):
